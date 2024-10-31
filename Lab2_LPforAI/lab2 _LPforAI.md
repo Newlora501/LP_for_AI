@@ -19,7 +19,7 @@
 1. Установить ROS2 Humble
 Изучить планировщик Pyperplan https://github.com/aibasel/pyperplan
 
-- Установка wsl Ubuntu
+- Установка Ubuntu
 
 ![Рис. 1.1.](images/im11.png){#fig:001 width=70%}
 
@@ -49,6 +49,7 @@
 ![Рис. 1.1.](images/im11_2.jpg){#fig:005 width=70%}
 ![Рис. 1.1.](images/im11_3.jpg){#fig:005 width=70%}
 ![Рис. 1.1.](images/im11_4.jpg){#fig:005 width=70%}
+![Рис. 1.1.](images/im3_3_5_1.png){#fig:005 width=70%}
 
 
 4)  Создание ROS узел с планировщиком.
