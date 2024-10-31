@@ -15,8 +15,8 @@ class RobotWorld(Node):
         self.getPlan()
 
     def getPlan(self):
-        domain_file = '/home/turtlebot3_ws/src/domain.pddl'
-        problem_file = 'home/turtlebot3_ws/src/problem.pddl'
+        domain_file = '/home/newloraelenga/ros2_ws/src/domain.pddl'
+        problem_file = '/home/newloraelenga/ros2_ws/src/problem.pddl'
         result = subprocess.run(['pyperplan','--heuristic','hff','--search','aster',domain_file,problem_file],stdout=subprocess.PIRE,text=True
         )
         plan_output=result.stdout.splitlines()
@@ -25,7 +25,7 @@ class RobotWorld(Node):
 
 # Функция для вывода плана
     def print_plan(self):
-        if self.current_step<len(self.plan)
+        if self.current_step<len(self.plan):
             action=self.plan[self.current.step]
             self.get_logger().info(f'Executing:{action}')
             parts = action.replace('(','').replace(')','').split()
